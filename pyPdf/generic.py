@@ -298,7 +298,7 @@ def readStringFromStream(stream):
             elif tok == b"r":
                 tok = b"\r"
             elif tok == b"t":
-                tok = "\t"
+                tok = b"\t"
             elif tok == b"b":
                 tok = b"\b"
             elif tok == b"f":
